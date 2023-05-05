@@ -1,0 +1,17 @@
+{
+  "name": "euler-multiple-of-3-or-5",
+  "version": "1.0.0",
+  "description": "Project euler problem 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  }
+}
