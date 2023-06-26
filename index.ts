@@ -5,8 +5,7 @@
  * Reference: https://projecteuler.net/problem=1
  */
 
-// For general purpose, it is useful to create a function that takes a parameter as limit of multiples
-function sumOfMultiples(limit: number): number {
+export default function sumOfMultiples(limit: number): number {
 	let total = 0;
 
 	for (let x = 1; x < limit; x++) {
@@ -17,6 +16,3 @@ function sumOfMultiples(limit: number): number {
 
 	return total;
 }
-
-// Call function with limit 1000
-console.log(sumOfMultiples(1000));
